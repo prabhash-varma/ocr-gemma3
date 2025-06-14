@@ -1,0 +1,22 @@
+[project]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Prabhash Varma Buddharaju",email = "varmaprabhash@gmail.com"}
+]
+#readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit (>=1.45.1,<2.0.0)"
+]
+
+[tool.poetry]
+
+[tool.poetry.group.dev.dependencies]
+pillow = "^11.2.1"
+google-genai = "^1.20.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
